@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  line-height: 1.5;
+}
+
+.card-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.products-img {
+  margin-right: 15px;
+}
+
+img {
+  height: auto;
+  width: 100%;
+  display: block;
+  border: 1px solid rgb(228, 215, 215);
+}
+
+img:hover {
+  opacity: 0.9;
+}
+
+.product-content {
+  padding: 1.7rem 1rem;
+}
+
+.product-title {
+  font-size: 2.1rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  position: relative;
+  color: #12263a;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.product-rating {
+  color: #ffc107;
+}
+
+.product-rating span {
+  font-weight: 600;
+  color: black;
+}
+
+.product-price {
+  margin: 1.4rem 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.product-price span {
+  font-weight: 400;
+}
+
+.old-price span {
+  color: #eb080c;
+  text-decoration: line-through;
+}
+
+.new-price span {
+  color: #256eff;
+}
+
+.product-details h2 {
+  text-transform: capitalize;
+  color: #12263a;
+  padding-bottom: 0.2rem;
+}
+
+.product-details p {
+  font-size: 0.9rem;
+  padding: 0.3rem;
+  opacity: 0.7;
+}
+
+.action {
+  margin: 1rem 0;
+}
+
+.action input,
+.btn {
+  border: 1px solid rgb(131, 126, 126);
+  border-radius: 25px;
+  padding: 0.5rem 1.2rem;
+  outline: none;
+  margin-bottom: 1.1rem;
+}
+
+.action input {
+  width: 70px;
+}
+
+.action .btn {
+  cursor: pointer;
+  color: #000;
+  border: 3px solid rgb(5, 236, 55);
+  transition: all 0.4s ease;
+}
+
+.action .btn:first-of-type:hover {
+  background: rgb(11, 11, 223);
+  color: #fff;
+}
+
+.action .btn:last-of-type:hover {
+  background: rgb(206, 54, 16);
+  color: #fff;
+}
+
+.action.btn:hover {
+  opacity: 0.8;
+}
+
+.social-link {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.social-link a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-decoration: none;
+  border: 1px solid #000;
+  margin: 5px 8px;
+  transition: all 0.3s ease;
+}
+
+.fa-facebook {
+  color: blue;
+}
+
+.fa-tiktok {
+  color: black;
+}
+
+.fa-instagram {
+  color: rgb(247, 6, 186);
+}
+
+.fa-twitter {
+  color: #256eff;
+}

@@ -1,0 +1,111 @@
+.titledetail {
+    display: block;
+    overflow: hidden;
+    line-height: 53px;
+    font-size: 45px;
+    color: #333;
+    font-family: 'Roboto Condensed',sans-serif;
+    font-weight: 600;
+    width: 800px;
+    margin: auto;
+}
+.userdetail a:hover {
+    text-decoration: none;
+}
+.userdetail {
+    display: block;
+    overflow: hidden;
+    margin: 0 10px 0 0;
+    padding: 15px 0;
+}
+.userdetail a {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #288ad6;
+    vertical-align: middle;
+    overflow: hidden;
+    margin-left: 155px;
+}
+.userdetail span {
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+    vertical-align: middle;
+    margin: -2px 5px 0;
+    cursor: pointer;
+}
+article .imgwrap {
+    position: relative;
+    min-height: 100px;
+    margin-top: 5px;
+    /* background: #f1f1f1; */
+}
+article img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* bottom */
+.titlerelate {
+    display: block;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    font-family: 'Roboto Condensed',sans-serif;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 30px 20px 10px;
+    margin-left: 100px;
+    border-top: 1px solid #eee;
+}
+.newsrelate {
+    display: block;
+    overflow: hidden;
+}
+.newsrelate li {
+    float: left;
+    overflow: hidden;
+    width: 30%;
+    margin-left: 2.5%;
+    margin-bottom: 15px;
+}
+.newsrelate li a {
+    display: block;
+    overflow: hidden;
+}
+.newsrelate li .tempvideo {
+    display: block;
+    position: relative;
+    height: 105px;
+    overflow: hidden;
+}
+.newsrelate li img {
+    display: block;
+    width: 100%;
+    max-height: 135px;
+    margin: 0 auto;
+}
+.newsrelate li h3 {
+    display: block;
+    overflow: hidden;
+    line-height: 1.3em;
+    font-size: 16px;
+    color: #333;
+    line-height: 22px;
+    font-weight: 300;
+    font-family: Arial,Helvetica,sans-serif;
+    width: auto;
+    margin: 5px auto;
+}
+.newsrelate li .timepost {
+    margin-top: 2px;
+    display: block;
+    overflow: hidden;
+    font-size: 13px;
+    color: #999;
+}
